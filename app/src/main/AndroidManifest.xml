@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Rubist"
         tools:targetApi="31">
         <activity
+            android:name=".ForgetPassword.ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".AddPostActivity"
             android:exported="false" />
         <activity
