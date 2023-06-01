@@ -9,4 +9,10 @@
     <string name="logout">Logout</string>
     <string name="yes">Yes</string>
     <string name="No">No</string>
+    <string name="title_start1">Let’s Start Journey With TrashSmart</string>
+    <string name="subtitle_start">Transforming Waste Empowering Sustainability</string>
+    <string name="next">Next</string>
+    <string name="titleMenu2">You Have the Power To</string>
+    <string name="descMenu2">Make a Greener World, One Choice at a Time</string>
+    <string name="start_now">Start Now</string>
 </resources>
