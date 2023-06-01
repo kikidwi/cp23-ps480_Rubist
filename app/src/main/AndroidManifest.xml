@@ -23,6 +23,12 @@
         android:theme="@style/Theme.Rubist"
         tools:targetApi="31">
         <activity
+            android:name=".Profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavBar.NavBarActivity"
+            android:exported="false" />
+        <activity
             android:name=".OnBoard.OnBoardActivity"
             android:exported="false" />
         <activity
@@ -57,6 +63,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

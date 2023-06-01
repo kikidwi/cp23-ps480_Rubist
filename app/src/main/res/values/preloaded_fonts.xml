@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/poppins</item>
+        <item>@font/poppins_medium</item>
         <item>@font/raleway</item>
         <item>@font/raleway_bold</item>
         <item>@font/raleway_medium</item>
