@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
             when (it.itemId) {
                 R.id.home -> replaceFragment(Home())
                 R.id.community -> replaceFragment(Community())
-                R.id.add -> startActivity(Intent(this, AddPostActivity::class.java))
+                R.id.add -> replaceFragment(AddPost())//startActivity(Intent(this, AddPostActivity::class.java))
                 R.id.profile-> replaceFragment(Profile())
                 else -> {}
             }

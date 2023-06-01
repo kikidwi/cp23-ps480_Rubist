@@ -21,7 +21,7 @@ class Profile : Fragment(), View.OnClickListener  {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         mainViewModel = ViewModelProvider(requireActivity()).get(MainViewModel::class.java)
-        val btnLogout : Button = view.findViewById(R.id.logout)
+        val btnLogout : Button = view.findViewById(R.id.btn_logout)
         btnLogout.setOnClickListener(this)
     }
 
